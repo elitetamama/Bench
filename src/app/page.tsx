@@ -7,10 +7,9 @@ export default function Home() {
         <p className="font-mono text-[11px] tracking-[0.18em] text-muted-foreground uppercase">Austin</p>
         <h1 className="mt-3 font-serif text-5xl tracking-tight text-foreground">Bench</h1>
         <p className="mt-5 text-sm leading-6">David Erthal</p>
-        <p className="text-sm leading-6 text-muted-foreground">Account Executive, Red Hat</p>
         <p className="mt-6 text-[15px] leading-7">
-          I sell infrastructure software. Before Red Hat, that was Broadcom and VMware. This page is
-          the hobby: projects I open, and notes I can still explain on a call.
+          I keep this shelf because I like learning how things work. These are the projects I open,
+          and the notes are so I can explain them in my own words.
         </p>
         <p className="mt-6 flex gap-4 text-sm">
           <a

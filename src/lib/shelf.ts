@@ -32,9 +32,9 @@ export const SEEDS: readonly ShelfItem[] = [
     href: "https://cursor.com",
     kind: "Editor",
     summary: "The editor I used to build this page.",
-    essay: `I put this page together in Cursor. Describe a small thing, read what comes back, and keep changing it until it sounds like you. That loop is the hobby version of the product.
+    essay: `I put this page together in Cursor. I describe a small thing, read what comes back, and change it until it sounds like me. That is how I learn the tool: by making something I can click, then figuring out what I still don't understand.
 
-I sell to people who live in an editor. Time in one keeps the conversation specific. When a platform lead talks about review load, or a security team asks where the code goes, I want to be describing a workflow I have actually used.`,
+The fun is the loop. Try something, run it, and keep going.`,
     origin: "seed",
   },
   {
@@ -43,9 +43,9 @@ I sell to people who live in an editor. Time in one keeps the conversation speci
     href: "https://github.com/odysseus-dev/odysseus",
     kind: "Models",
     summary: "A self-hosted workspace for models, chat, and agents.",
-    essay: `Odysseus is a self-hosted place to talk to models, with agents and tools, on hardware you control. I keep it here because it makes a vague buyer question concrete: where the model runs, what it can touch, and what never leaves the building.
+    essay: `Odysseus is a self-hosted place to talk to models, with chat, agents, and tools, on a machine you control. I am learning it because I want to understand the pieces: where a model runs, what it can touch, and what can stay on the machine.
 
-The repo belongs to the Odysseus project. My part is the note, and the habit of reading the README before I use the vocabulary on a call.`,
+The repo belongs to the Odysseus project. I am finding my way through it, and the note is mine.`,
     origin: "seed",
   },
   {
@@ -54,9 +54,9 @@ The repo belongs to the Odysseus project. My part is the note, and the habit of 
     href: "https://github.com/flipperdevices/flipperzero-firmware",
     kind: "Hardware",
     summary: "Pocket hardware with public firmware, apps, and issues.",
-    essay: `Flipper Zero is a pocket multi-tool for infrared, NFC, RFID, and sub-GHz. The firmware, the apps, and the issue tracker are public, and they are written so someone outside the project can follow along.
+    essay: `Flipper Zero is a pocket multi-tool for infrared, NFC, RFID, and sub-GHz. The firmware, the apps, and the docs are public, so I can follow along instead of only pressing buttons.
 
-I use the apps and I read the project. The note below is the part that is mine.`,
+I use the apps and I read the project. Seeing how a small hardware project is maintained is the part I enjoy.`,
     origin: "seed",
   },
 ]

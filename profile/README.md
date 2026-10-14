@@ -1,8 +1,8 @@
 # David Erthal
 
-Account Executive at Red Hat (IBM), based in Austin. I sell infrastructure software to technical buyers. Before this I was at Broadcom and VMware.
+Austin. I like taking software and hardware apart until I understand them.
 
-GitHub is the hobby. I use other people's projects to stay close to how developers actually work, and Bench is the first small thing I've published of my own.
+Bench is a shelf of projects I use and learn from.
 
 ## On the bench
 
