@@ -1,57 +1,58 @@
 # Putting this on GitHub
 
-Bench is meant to be the one public repository on a new GitHub account. One real project reads better than a row of empty forks.
+The account is [github.com/elitetamama](https://github.com/elitetamama). It has no public repositories yet, so Bench can be the first thing on it.
 
-Read `src/lib/shelf.ts` first. Those three notes are written in your voice from what you've said you use. Change any sentence you would not say on a call, then publish.
+Read `src/lib/shelf.ts` first. Those three notes are written from what you've said you use. Change any sentence you would not say on a call, then publish.
 
-## 1. Create the account
+## 1. Finish the profile
 
-If you don't have GitHub yet, sign up at [github.com](https://github.com). The username is public. `daviderthal` is a clean choice when it's available.
+The bio is already in good shape: "AE at @RedHat, Selling Open Source to Engineering Teams, and I tinker on the side."
 
-In the profile settings, set:
+On [the profile settings page](https://github.com/settings/profile), fill the fields that are still empty:
 
 - Name: David Erthal
-- Bio: `AE at Red Hat. I keep a hobby shelf of the tools I sell around.`
 - Company: Red Hat
 - Location: Austin, Texas
-- Link: `https://www.linkedin.com/in/daviderthal`
-- Photo: the same one you use on LinkedIn
+- Website: `https://www.linkedin.com/in/daviderthal`
+
+The username stays `elitetamama`. The name field is what a hiring manager reads next to the photo.
 
 ## 2. Publish Bench
 
-Create a **public** repository named `bench`. Leave it empty. GitHub's "add a README" box should stay unchecked, because this project already has one.
+Create a **public** repository named `bench` at [github.com/new](https://github.com/new). Leave it empty. GitHub's "add a README" box should stay unchecked, because this project already has one.
 
-From this folder, if `origin` is not already your GitHub account:
+This project already has a remote named `origin` for the Cursor workspace. Add GitHub as a second remote and push `main`:
 
 ```bash
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/bench.git
-git push -u origin main
+git remote add github https://github.com/elitetamama/bench.git
+git push -u github main
 ```
 
-GitHub will ask you to sign in. After the push, open the repository and confirm the README is the description of Bench, not a template.
+GitHub will ask you to sign in. After the push, open [github.com/elitetamama/bench](https://github.com/elitetamama/bench) and confirm the README is the description of Bench.
 
-Then on your profile, pin `bench`. One pin is enough until you have a second project you can explain.
+Then on [your profile](https://github.com/elitetamama), choose Customize your pins and pin `bench`. One pin is enough until you have a second project you can explain.
 
 ## 3. Turn on the profile page
 
 GitHub shows a special README when a repository has the exact same name as your username.
 
-1. Create a public repository named `YOUR_GITHUB_USERNAME` (the same string as the account).
+1. Create a public repository named `elitetamama`.
 2. Add a file called `README.md`.
 3. Paste the contents of `profile/README.md` from this project.
-4. Replace `YOUR_GITHUB_USERNAME` in the Bench link.
 
-That file is the whole page at `github.com/YOUR_GITHUB_USERNAME`.
+That file is the whole page at [github.com/elitetamama](https://github.com/elitetamama). The Bench link in it already points at `elitetamama/bench`.
 
 ## 4. What to do with Odysseus and Flipper
 
-Leave them as links. Starring a repository is fine. Forking it onto your account looks like a contribution you didn't make, and a hiring manager who clicks through will notice the fork is empty.
+Leave them as links. Starring a repository is fine. Forking it onto `elitetamama` looks like a contribution you didn't make, and a hiring manager who clicks through will notice the fork is empty.
 
 ## A paragraph you can paste on an application
 
 I sell infrastructure software to technical buyers. I'm an account executive at Red Hat, on the IBM team, based in Austin. I joined from Broadcom, where I covered west-territory virtualization after the VMware acquisition, and before that I was in a commercial acquisition role at VMware in California.
 
 The people I sell to live in platforms, security reviews, and developer workflows. I keep a GitHub so that part of the job stays concrete. Bench is the first project I've published: a small shelf of tools I actually use, including Cursor, the Odysseus workspace, and Flipper Zero. The notes are in my own words. I built the page in Cursor. I can change it, run it, and explain the files. Programming is a hobby I take seriously, in service of selling to people who do it all day.
+
+https://github.com/elitetamama/bench
 
 ## If someone asks what you built
 

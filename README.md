@@ -29,4 +29,4 @@ Edit the words in `src/lib/shelf.ts` before you publish. If a sentence is not so
 
 ## Publishing
 
-See [PUBLISHING.md](PUBLISHING.md). Short version: push this repository, pin it, and put `profile/README.md` in a repository named exactly your GitHub username.
+See [PUBLISHING.md](PUBLISHING.md). Short version: push this repository to [github.com/elitetamama/bench](https://github.com/elitetamama/bench), pin it, and put `profile/README.md` in a repository named `elitetamama`.

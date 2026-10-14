@@ -12,12 +12,20 @@ export default function Home() {
           I sell infrastructure software. Before Red Hat, that was Broadcom and VMware. This page is
           the hobby: projects I open, and notes I can still explain on a call.
         </p>
-        <a
-          href="https://www.linkedin.com/in/daviderthal"
-          className="mt-6 inline-block text-sm underline decoration-border underline-offset-4 hover:decoration-foreground"
-        >
-          LinkedIn
-        </a>
+        <p className="mt-6 flex gap-4 text-sm">
+          <a
+            href="https://github.com/elitetamama"
+            className="underline decoration-border underline-offset-4 hover:decoration-foreground"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/daviderthal"
+            className="underline decoration-border underline-offset-4 hover:decoration-foreground"
+          >
+            LinkedIn
+          </a>
+        </p>
       </header>
       <Bench />
     </div>
