@@ -23,9 +23,3 @@ Open the URL Next prints. `npm test` checks the shelf logic. `npm run lint` chec
 | `src/components/bench.tsx` | The page: open a row, filter, type a margin note |
 | `src/components/add-project-dialog.tsx` | The form for a project of your own |
 | `profile/README.md` | The text for a GitHub profile page |
-| `PUBLISHING.md` | How to push an update to GitHub |
-
-
-## Publishing
-
-See [PUBLISHING.md](PUBLISHING.md). Short version: push this repository to [github.com/elitetamama/bench](https://github.com/elitetamama/bench), pin it, and put `profile/README.md` in a repository named `elitetamama`.
