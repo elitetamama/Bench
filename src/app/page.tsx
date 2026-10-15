@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="grid gap-12 px-5 py-12 md:grid-cols-[220px_minmax(0,1fr)] md:gap-16 md:px-12 md:py-16">
       <header className="md:sticky md:top-12 md:self-start">
-        <p className="font-mono text-[11px] tracking-[0.18em] text-muted-foreground uppercase">Austin</p>
+        <p className="font-mono text-[11px] tracking-[0.18em] text-muted-foreground uppercase">V0.2</p>
         <h1 className="mt-3 font-serif text-5xl tracking-tight text-foreground">Bench</h1>
         <p className="mt-5 text-sm leading-6">David Erthal</p>
         <p className="mt-6 text-[15px] leading-7">

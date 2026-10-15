@@ -39,7 +39,7 @@ export const SEEDS: readonly ShelfItem[] = [
     href: "https://cursor.com",
     kind: "Editor",
     summary: "The editor I used to build this page.",
-    essay: `I put this page together in Cursor. I describe a small thing, read what comes back, and change it until it sounds like me. That is how I learn the tool: by making something I can click, then figuring out what I still don't understand.
+    essay: `I put this page together in Cursor. I describe a small thing, read what comes back, and change it until it sounds like me. That is how I learn the tool: by making something I can click, then figuring out what I still don't understand. Most other projects on this shelf were done relying heavily on Cursor as my coach and council throughout the project.
 
 The fun is the loop. Try something, run it, and keep going.`,
     image: "/shelf/cursor.jpg",
@@ -55,12 +55,10 @@ The fun is the loop. Try something, run it, and keep going.`,
     name: "Odysseus",
     href: "https://github.com/odysseus-dev/odysseus",
     kind: "Models",
-    summary: "My own site, running at home and open from anywhere.",
-    essay: `Odysseus is a self-hosted place to talk to models, with chat, agents, and tools. I run it on a computer at home. Cloudflare makes that computer my own website, so I can open it from anywhere.
+    summary: "My family's assistant, hosted at home and open from anywhere.",
+    essay: `Odysseus is a self-hosted place to talk to models, with chat, agents, and tools, on a machine you control. I am learning it because I want to understand the pieces: where a model runs, what it can touch, and what can stay on the machine. Odysseus has given a second life to my home PC where it now acts as the host for my family's own personal AI assistant. Cloudflare makes that computer my own website, so I can open it from anywhere.
 
-I am learning the pieces: where a model runs, what it can touch, and what stays on the machine.
-
-The repo belongs to the Odysseus project. The instance is mine.`,
+The repo belongs to the Odysseus project. I am finding my way through it, and the note is mine.`,
     awaitingPhoto: true,
     origin: "seed",
   },
@@ -72,7 +70,7 @@ The repo belongs to the Odysseus project. The instance is mine.`,
     summary: "Pocket hardware with public firmware, apps, and issues.",
     essay: `Flipper Zero is a pocket multi-tool for infrared, NFC, RFID, and sub-GHz. The firmware, the apps, and the docs are public, so I can follow along instead of only pressing buttons.
 
-I use the apps and I read the project. Seeing how a small hardware project is maintained is the part I enjoy.`,
+What I love about the Flipper Zero is that it enables me to "see" and interact with so many otherwise invisible frequencies and waves that are around us at all times. It helps me learn more about the ways the tech world works, and the ways in which we need to protect ourselves from those with malicious intent.`,
     image: "/shelf/flipper.jpg",
     imageAlt: "A white Flipper Zero, its screen showing a scan.",
     imageWidth: 1280,
@@ -98,6 +96,25 @@ The repo belongs to the Sesame project. The robot on my desk is the part I made.
     imageHeight: 655,
     imageCredit: "Photo from the sesame-robot project",
     imageCreditHref: "https://github.com/dorianborian/sesame-robot",
+    origin: "seed",
+  },
+  {
+    id: "gods-eye",
+    name: "God's Eye View",
+    href: "https://github.com/bilawalsidhu/gods-eye-view",
+    kind: "Other",
+    summary: "A live 3D globe I got running, APIs and all.",
+    essay: `God's Eye View is an open-source globe in the browser: live public data on a photorealistic Earth. I used Cursor to get it running. That meant learning how the APIs fit together, and using the Google Cloud console to turn on the paid photorealistic 3D tiles, the fancy Earth view.
+
+The interface is the other lesson. It is clean, and it is the nicest UI I have worked in.
+
+The repo belongs to the God's Eye View project. Getting my own copy running is the part I did.`,
+    image: "/shelf/gods-eye.jpg",
+    imageAlt: "God's Eye View, a dark interface over a satellite view of an airport.",
+    imageWidth: 800,
+    imageHeight: 450,
+    imageCredit: "From the God's Eye View project",
+    imageCreditHref: "https://github.com/bilawalsidhu/gods-eye-view",
     origin: "seed",
   },
 ]
