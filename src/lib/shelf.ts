@@ -32,7 +32,7 @@ export const SEEDS: readonly ShelfItem[] = [
     href: "https://cursor.com",
     kind: "Editor",
     summary: "The editor I used to build this page.",
-    essay: `I put this page together in Cursor. I describe a small thing, read what comes back, and change it until it sounds like me. That is how I learn the tool: by making something I can click, then figuring out what I still don't understand.
+    essay: `I put this page together in Cursor. I describe a small thing, read what comes back, and change it until it sounds like me. That is how I learn the tool: by making something I can click, then figuring out what I still don't understand. Most other projects on this shelf were done relying heavily on Cursor as my coach and council throughout the project.
 
 The fun is the loop. Try something, run it, and keep going.`,
     origin: "seed",
@@ -43,7 +43,7 @@ The fun is the loop. Try something, run it, and keep going.`,
     href: "https://github.com/odysseus-dev/odysseus",
     kind: "Models",
     summary: "A self-hosted workspace for models, chat, and agents.",
-    essay: `Odysseus is a self-hosted place to talk to models, with chat, agents, and tools, on a machine you control. I am learning it because I want to understand the pieces: where a model runs, what it can touch, and what can stay on the machine.
+    essay: `Odysseus is a self-hosted place to talk to models, with chat, agents, and tools, on a machine you control. I am learning it because I want to understand the pieces: where a model runs, what it can touch, and what can stay on the machine. Odysseus has given a second life to my home PC where it now acts as the host for my family's own personal AI assistant.
 
 The repo belongs to the Odysseus project. I am finding my way through it, and the note is mine.`,
     origin: "seed",
@@ -56,7 +56,7 @@ The repo belongs to the Odysseus project. I am finding my way through it, and th
     summary: "Pocket hardware with public firmware, apps, and issues.",
     essay: `Flipper Zero is a pocket multi-tool for infrared, NFC, RFID, and sub-GHz. The firmware, the apps, and the docs are public, so I can follow along instead of only pressing buttons.
 
-I use the apps and I read the project. Seeing how a small hardware project is maintained is the part I enjoy.`,
+What I love about the Flipper Zero is that it enables me to "see" and interact with so many otherwise invisible frequencies and waves that are around us at all times. It helps me learn more about the ways the tech world works, and the ways in which we need to protect ourselves from those with malicious intent `,
     origin: "seed",
   },
 ]
