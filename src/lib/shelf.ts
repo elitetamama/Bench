@@ -14,6 +14,13 @@ export type ShelfItem = {
   summary: string
   essay: string
   origin: "seed" | "yours"
+  image?: string
+  imageAlt?: string
+  imageWidth?: number
+  imageHeight?: number
+  imageCredit?: string
+  imageCreditHref?: string
+  awaitingPhoto?: boolean
 }
 
 export type ShelfState = {
@@ -35,6 +42,12 @@ export const SEEDS: readonly ShelfItem[] = [
     essay: `I put this page together in Cursor. I describe a small thing, read what comes back, and change it until it sounds like me. That is how I learn the tool: by making something I can click, then figuring out what I still don't understand.
 
 The fun is the loop. Try something, run it, and keep going.`,
+    image: "/shelf/cursor.jpg",
+    imageAlt: "The Cursor editor, with a chat beside an open document.",
+    imageWidth: 1600,
+    imageHeight: 840,
+    imageCredit: "Screenshot from cursor.com",
+    imageCreditHref: "https://cursor.com",
     origin: "seed",
   },
   {
@@ -46,6 +59,7 @@ The fun is the loop. Try something, run it, and keep going.`,
     essay: `Odysseus is a self-hosted place to talk to models, with chat, agents, and tools, on a machine you control. I am learning it because I want to understand the pieces: where a model runs, what it can touch, and what can stay on the machine.
 
 The repo belongs to the Odysseus project. I am finding my way through it, and the note is mine.`,
+    awaitingPhoto: true,
     origin: "seed",
   },
   {
@@ -57,6 +71,31 @@ The repo belongs to the Odysseus project. I am finding my way through it, and th
     essay: `Flipper Zero is a pocket multi-tool for infrared, NFC, RFID, and sub-GHz. The firmware, the apps, and the docs are public, so I can follow along instead of only pressing buttons.
 
 I use the apps and I read the project. Seeing how a small hardware project is maintained is the part I enjoy.`,
+    image: "/shelf/flipper.jpg",
+    imageAlt: "A white Flipper Zero, its screen showing a scan.",
+    imageWidth: 1280,
+    imageHeight: 794,
+    imageCredit: "Photo by Turbospok, CC BY-SA 4.0, via Wikimedia Commons",
+    imageCreditHref: "https://commons.wikimedia.org/wiki/File:Flipper_Zero.jpg",
+    origin: "seed",
+  },
+  {
+    id: "sesame",
+    name: "Sesame",
+    href: "https://github.com/dorianborian/sesame-robot",
+    kind: "Hardware",
+    summary: "A 3D-printed quadruped I built from the public repo.",
+    essay: `Sesame is a small quadruped: a printed body, servos, and a little screen for a face. I printed the body, then used Cursor and the project's GitHub repo to learn enough robotics to get a working prototype.
+
+Next I want an AI camera and a microphone, so I can talk to it outside the app.
+
+The repo belongs to the Sesame project. The robot on my desk is the part I made.`,
+    image: "/shelf/sesame.jpg",
+    imageAlt: "A yellow 3D-printed quadruped robot with a small screen face.",
+    imageWidth: 1400,
+    imageHeight: 655,
+    imageCredit: "Photo from the sesame-robot project",
+    imageCreditHref: "https://github.com/dorianborian/sesame-robot",
     origin: "seed",
   },
 ]

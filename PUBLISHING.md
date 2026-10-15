@@ -21,8 +21,10 @@ That file is the page at [github.com/elitetamama](https://github.com/elitetamama
 
 On [your profile settings](https://github.com/settings/profile), a bio that matches this shelf is:
 
-`Learning in public. Cursor, local models, and a Flipper Zero.`
+`Learning in public. Cursor, local models, a Flipper Zero, and a printed robot.`
 
-## Odysseus and Flipper
+## Odysseus, Flipper, and Sesame
 
 Leave them as links. Starring a repository is fine. A fork on this account would look like a project you maintain.
+
+The Odysseus note is waiting on a photo of your own instance. When you have it, put the file at `public/shelf/odysseus.jpg` and say so. The other photos are already in `public/shelf/`.

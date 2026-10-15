@@ -24,7 +24,7 @@ const newsreader = Newsreader({
 export const metadata: Metadata = {
   title: "Bench — David Erthal",
   description:
-    "A shelf of the projects David Erthal actually uses: Cursor, Odysseus, and Flipper Zero.",
+    "A shelf of the projects David Erthal actually uses: Cursor, Odysseus, Flipper Zero, and Sesame.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

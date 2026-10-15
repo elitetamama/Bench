@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { useState, useSyncExternalStore } from "react"
 import { toast } from "sonner"
 import { AddProjectDialog } from "@/components/add-project-dialog"
@@ -112,6 +113,46 @@ export function Bench() {
   )
 }
 
+function ShelfPicture({ item }: { item: ShelfItem }) {
+  if (item.awaitingPhoto) {
+    return (
+      <div className="mb-5 flex min-h-36 max-w-xl items-end border border-dashed border-border bg-background px-4 py-5">
+        <p className="font-serif text-xl tracking-tight text-muted-foreground">
+          A picture of my own Odysseus will go here.
+        </p>
+      </div>
+    )
+  }
+  if (!item.image) return null
+  return (
+    <figure className="mb-5 max-w-xl">
+      <Image
+        src={item.image}
+        alt={item.imageAlt ?? ""}
+        width={item.imageWidth ?? 1600}
+        height={item.imageHeight ?? 900}
+        className="h-auto w-full border border-border bg-background"
+      />
+      {item.imageCredit ? (
+        <figcaption className="mt-2 text-xs leading-5 text-muted-foreground">
+          {item.imageCreditHref ? (
+            <a
+              href={item.imageCreditHref}
+              target="_blank"
+              rel="noreferrer"
+              className="underline decoration-border underline-offset-4 hover:decoration-foreground"
+            >
+              {item.imageCredit}
+            </a>
+          ) : (
+            item.imageCredit
+          )}
+        </figcaption>
+      ) : null}
+    </figure>
+  )
+}
+
 function ShelfRow({
   item,
   index,
@@ -158,6 +199,7 @@ function ShelfRow({
               {item.kind}
             </p>
           ) : null}
+          <ShelfPicture item={item} />
           <div className="max-w-xl space-y-3 text-[15px] leading-7">
             {paragraphs.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>

@@ -74,7 +74,13 @@ describe("parseShelfState", () => {
 describe("visibleItems", () => {
   it("filters seeds by kind and keeps All intact", () => {
     expect(visibleItems(SEEDS, "All")).toHaveLength(SEEDS.length)
-    expect(visibleItems(SEEDS, "Hardware").map((item) => item.id)).toEqual(["flipper"])
+    expect(visibleItems(SEEDS, "Hardware").map((item) => item.id)).toEqual(["flipper", "sesame"])
+    expect(SEEDS.find((item) => item.id === "odysseus")?.awaitingPhoto).toBe(true)
+    expect(SEEDS.filter((item) => item.image).map((item) => item.id)).toEqual([
+      "cursor",
+      "flipper",
+      "sesame",
+    ])
     expect(visibleItems(combinedShelf({ yours: [], margins: {} }), "Editor")).toHaveLength(1)
   })
 })
