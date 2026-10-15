@@ -113,10 +113,10 @@ The repo belongs to the Sesame project. The robot on my desk is the part I made.
 The interface is the other lesson. It is clean, and it is the nicest UI I have worked in.
 
 The repo belongs to the God's Eye View project. Getting my own copy running is the part I did.`,
-    image: "/shelf/gods-eye.jpg",
-    imageAlt: "God's Eye View, a dark interface over a satellite view of an airport.",
-    imageWidth: 800,
-    imageHeight: 450,
+    image: "/shelf/gods-eye-austin.jpg",
+    imageAlt: "God's Eye View over downtown Austin, with public cameras along the street.",
+    imageWidth: 566,
+    imageHeight: 332,
     imageCredit: "From the God's Eye View project",
     imageCreditHref: "https://github.com/bilawalsidhu/gods-eye-view",
     origin: "seed",
