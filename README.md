@@ -4,7 +4,7 @@ A small shelf of the projects David Erthal actually uses.
 
 David Erthal keeps a shelf of projects he uses and learns from: Cursor, [Odysseus](https://github.com/odysseus-dev/odysseus), [Flipper Zero](https://github.com/flipperdevices/flipperzero-firmware), [Sesame](https://github.com/dorianborian/sesame-robot), and [God's Eye View](https://github.com/bilawalsidhu/gods-eye-view), with room to add the next thing. Notes typed into the page stay in the browser. Nothing is uploaded.
 
-![Bench, with the God's Eye View note open](docs/bench.png)
+![Bench, as it looks when you open it](docs/bench.png)
 
 ## Run it
 
