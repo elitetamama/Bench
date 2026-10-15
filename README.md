@@ -25,7 +25,6 @@ Open the URL Next prints. `npm test` checks the shelf logic. `npm run lint` chec
 | `profile/README.md` | The text for a GitHub profile page |
 | `PUBLISHING.md` | How to push an update to GitHub |
 
-Edit the words in `src/lib/shelf.ts` before you publish. If a sentence is not something you would say out loud, change it.
 
 ## Publishing
 
