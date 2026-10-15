@@ -55,10 +55,12 @@ The fun is the loop. Try something, run it, and keep going.`,
     name: "Odysseus",
     href: "https://github.com/odysseus-dev/odysseus",
     kind: "Models",
-    summary: "A self-hosted workspace for models, chat, and agents.",
-    essay: `Odysseus is a self-hosted place to talk to models, with chat, agents, and tools, on a machine you control. I am learning it because I want to understand the pieces: where a model runs, what it can touch, and what can stay on the machine.
+    summary: "My own site, running at home and open from anywhere.",
+    essay: `Odysseus is a self-hosted place to talk to models, with chat, agents, and tools. I run it on a computer at home. Cloudflare makes that computer my own website, so I can open it from anywhere.
 
-The repo belongs to the Odysseus project. I am finding my way through it, and the note is mine.`,
+I am learning the pieces: where a model runs, what it can touch, and what stays on the machine.
+
+The repo belongs to the Odysseus project. The instance is mine.`,
     awaitingPhoto: true,
     origin: "seed",
   },
