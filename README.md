@@ -20,7 +20,7 @@ Open the URL Next prints. `npm test` checks the shelf logic. `npm run lint` chec
 | File | What it is |
 | --- | --- |
 | `src/lib/shelf.ts` | The writeups, plus the rules for adding a project |
-| `public/shelf/` | Photos for the notes. Odysseus is waiting on a picture of David's own instance. |
+| `public/shelf/` | Photos for the notes, including David's own Odysseus. |
 | `src/components/bench.tsx` | The page: open a row, filter, type a margin note |
 | `src/components/add-project-dialog.tsx` | The form for a project of your own |
 | `profile/README.md` | The text for a GitHub profile page |

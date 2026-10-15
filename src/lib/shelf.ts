@@ -59,7 +59,11 @@ The fun is the loop. Try something, run it, and keep going.`,
     essay: `Odysseus is a self-hosted place to talk to models, with chat, agents, and tools, on a machine you control. I am learning it because I want to understand the pieces: where a model runs, what it can touch, and what can stay on the machine. Odysseus has given a second life to my home PC where it now acts as the host for my family's own personal AI assistant. Cloudflare makes that computer my own website, so I can open it from anywhere.
 
 The repo belongs to the Odysseus project. I am finding my way through it, and the note is mine.`,
-    awaitingPhoto: true,
+    image: "/shelf/odysseus.jpg",
+    imageAlt: "Odysseus on a phone, ready for a new chat.",
+    imageWidth: 720,
+    imageHeight: 1564,
+    imageCredit: "My instance",
     origin: "seed",
   },
   {

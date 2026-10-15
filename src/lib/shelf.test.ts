@@ -75,7 +75,7 @@ describe("visibleItems", () => {
   it("filters seeds by kind and keeps All intact", () => {
     expect(visibleItems(SEEDS, "All")).toHaveLength(SEEDS.length)
     expect(visibleItems(SEEDS, "Hardware").map((item) => item.id)).toEqual(["flipper", "sesame"])
-    expect(SEEDS.find((item) => item.id === "odysseus")?.awaitingPhoto).toBe(true)
+    expect(SEEDS.find((item) => item.id === "odysseus")?.image).toBe("/shelf/odysseus.jpg")
     expect(SEEDS.find((item) => item.id === "odysseus")?.essay).toMatch(/Cloudflare/)
     expect(SEEDS.find((item) => item.id === "odysseus")?.essay).toMatch(/family's own personal AI assistant/)
     expect(SEEDS.find((item) => item.id === "cursor")?.essay).toMatch(/coach and council/)
@@ -83,6 +83,7 @@ describe("visibleItems", () => {
     expect(visibleItems(SEEDS, "Other").map((item) => item.id)).toEqual(["gods-eye"])
     expect(SEEDS.filter((item) => item.image).map((item) => item.id)).toEqual([
       "cursor",
+      "odysseus",
       "flipper",
       "sesame",
       "gods-eye",

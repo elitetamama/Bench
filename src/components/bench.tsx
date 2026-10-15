@@ -131,7 +131,11 @@ function ShelfPicture({ item }: { item: ShelfItem }) {
         alt={item.imageAlt ?? ""}
         width={item.imageWidth ?? 1600}
         height={item.imageHeight ?? 900}
-        className="h-auto w-full border border-border bg-background"
+        className={
+          (item.imageHeight ?? 0) > (item.imageWidth ?? 0)
+            ? "mx-auto h-auto w-full max-w-[280px] border border-border bg-background"
+            : "h-auto w-full border border-border bg-background"
+        }
       />
       {item.imageCredit ? (
         <figcaption className="mt-2 text-xs leading-5 text-muted-foreground">

@@ -27,4 +27,4 @@ On [your profile settings](https://github.com/settings/profile), a bio that matc
 
 Leave them as links. Starring a repository is fine. A fork on this account would look like a project you maintain.
 
-The Odysseus note is waiting on a photo of your own instance. When you have it, put the file at `public/shelf/odysseus.jpg` and say so. The other photos are already in `public/shelf/`.
+The photos, including the Odysseus screenshot, are in `public/shelf/`.
